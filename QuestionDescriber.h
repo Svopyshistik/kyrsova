@@ -1,5 +1,7 @@
 #ifndef КУРСОВА_QUESTIONDESCRIBER_H
 #define КУРСОВА_QUESTIONDESCRIBER_H
+#include <iostream>
+using namespace std;
 class QuestionDescriber
 {
 public:

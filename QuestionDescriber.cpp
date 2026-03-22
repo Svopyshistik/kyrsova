@@ -1,15 +1,15 @@
 #include "QuestionDescriber.h"
+using namespace std;
 QuestionDescriber::QuestionDescriber(){
-    question = qwerty;
-    answer = {"","",""};
+    question = "";
     trueanswer=-1;
 }
 QuestionDescriber::QuestionDescriber(string question, string answers[3], int useranswer){
     question = question;
-    answer = answers[useranswer];
+    answers = answers;
 }
 bool QuestionDescriber::correctAnswer( int useranswer){
-if(useransver == trueanswers){
+if(useranswer == trueanswer){
 return true;
 }
 return false;

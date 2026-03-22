@@ -4,6 +4,9 @@
 #include <fstream>
 #include <string>
 #include <cstdlib>
+using namespace std;
+#include "QuestionDescriber.h"
+
 class TestReader {
 public:
     QuestionDescriber questions[10];

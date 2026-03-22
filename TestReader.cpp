@@ -1,6 +1,7 @@
 #include "TestReader.h"
-Testreader::Testreader(){}
-void Testreader::readQuestion(){
+using namespace std;
+TestReader::TestReader(){}
+void TestReader::readQuestion(){
     ifstream inf("test.txt");
     if (!inf)
     {
@@ -9,11 +10,13 @@ void Testreader::readQuestion(){
     }
     while (inf)
     {
-strin question
+string question;
 string answer1, answer2, answer3;
 int corectanswer;
-inf >> question;
-inf >> answer1 >> answer2 >> answer3;
+        getline(inf, question);
+        getline(inf, answer1);
+        getline(inf, answer2);
+        getline(inf, answer3);
 inf >> corectanswer;
 cout << question << endl;
 cout << answer1 << endl;
@@ -21,6 +24,5 @@ cout << answer2 << endl;
 cout << answer3 << endl;
 cout << corectanswer << endl;
 cout << endl;
-        git commit -m " "
     }
 }
