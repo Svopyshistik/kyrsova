@@ -1,13 +1,15 @@
-//
-// Created by Zlata Pashko on 22.03.2026.
-//
-
 #ifndef КУРСОВА_TESTREADER_H
 #define КУРСОВА_TESTREADER_H
-
-
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstdlib>
 class TestReader {
+public:
+    QuestionDescriber questions[10];
+TestReader();
+void readQuestion();
 };
 
 
-#endif //КУРСОВА_TESTREADER_H
+#endif
